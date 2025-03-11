@@ -1,6 +1,6 @@
 module.exports = {
     extends: [
-        "@reactway",
+        "@arty-125",
         "plugin:react/recommended",
         "plugin:react/jsx-runtime",
         "plugin:react-hooks/recommended",

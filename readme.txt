@@ -1,6 +1,6 @@
-# @reactway/eslint-config
+# @arty-125/eslint-config-upgraded
 
-[![npm](https://img.shields.io/npm/v/@reactway/eslint-config)](https://www.npmjs.com/package/@reactway/eslint-config)
+[![npm](https://img.shields.io/npm/v/@arty-125/eslint-config-upgraded)](https://www.npmjs.com/package/@arty-125/eslint-config-upgraded)
 [![Azure DevOps builds](https://img.shields.io/azure-devops/build/reactway/reactway/8)](https://dev.azure.com/reactway/ReactWay/_build?definitionId=8&_a=summary)
 
 Reactway's ESLint guidelines for TypeScript projects. Based on [@typescript-eslint/recommended](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#supported-rules) and [prettier/@typescript-eslint](https://github.com/prettier/eslint-config-prettier).
@@ -8,7 +8,7 @@ Reactway's ESLint guidelines for TypeScript projects. Based on [@typescript-esli
 ## Get started
 
 ```sh
-npm install @reactway/eslint-config -D
+npm install @arty-125/eslint-config-upgraded -D
 ```
 
 ## How to use?
@@ -27,7 +27,7 @@ Create config file in project root folder `.eslintrc.json`.
 
 ```sh
 {
-    "extends": ["@reactway/eslint-config/react"]
+    "extends": ["arty-125/eslint-config-upgraded/react"]
 }
 ```
 

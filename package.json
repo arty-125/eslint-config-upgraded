@@ -1,7 +1,7 @@
 {
-    "name": "@reactway/eslint-config",
+    "name": "@arty-125/eslint-config-upgraded",
     "version": "1.0.4",
-    "description": "Reactway's ESLint guidelines for TypeScript projects.",
+    "description": "upgraded Reactway's ESLint guidelines for TypeScript projects.",
     "main": "index.js",
     "scripts": {
         "test:basic": "eslint \"test-lint/basic/*.ts\"",
@@ -14,7 +14,7 @@
         "reactway",
         "styleguide"
     ],
-    "author": "Reactway <dev@reactway.com> (https://github.com/reactway)",
+    "author": "Alireza Torkamani",
     "license": "MIT",
     "peerDependencies": {
         "eslint": "^8.56.0",
