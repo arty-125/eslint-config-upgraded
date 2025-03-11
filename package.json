@@ -1,0 +1,43 @@
+{
+    "name": "@reactway/eslint-config",
+    "version": "1.0.4",
+    "description": "Reactway's ESLint guidelines for TypeScript projects.",
+    "main": "index.js",
+    "scripts": {
+        "test:basic": "eslint \"test-lint/basic/*.ts\"",
+        "test:react": "eslint \"test-lint/react/*.tsx\""
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "typescript",
+        "reactway",
+        "styleguide"
+    ],
+    "author": "Reactway <dev@reactway.com> (https://github.com/reactway)",
+    "license": "MIT",
+    "peerDependencies": {
+        "eslint": "^8.56.0",
+        "typescript": "^5.3.3",
+        "prettier": "^3.2.5"
+    },
+    "files": [
+        "*.js"
+    ],
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^7.1.0",
+        "@typescript-eslint/parser": "^7.1.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.1.3",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-react": "^7.33.2",
+        "eslint-plugin-react-hooks": "^4.6.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.2.58",
+        "eslint": "^8.56.0",
+        "prettier": "^3.2.5",
+        "react": "^18.2.0",
+        "typescript": "^5.3.3"
+    }
+}
